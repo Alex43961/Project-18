@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+}
+
+#app {
+	width: 375px;
+	height: 812px;
+	background: var(--primary-bg);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.img__splash {
+	height: 355px;
+	width: 282px;
+	margin: 103px auto 38px;
+	background-image: url(../public/images/kindpng_5499625\ 1.png);
+	background-position: center;
+}
+
+.little-buttons {
+	display: flex;	
+	justify-content: center;
+}
+
+.circle-button {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--secondary-bg);
+	margin-left: 9px;
+}
+
+.ellipse-button {
+	height: 7px;
+	width: 18px;
+	border-radius: 7px;
+	margin-left: 9px;
+}
+
+.big-text__splash {
+	margin-top: 21px;
+}
+
+.big-text {
+	font-family: var(--regular-fonts);
+	font-size: 40px;
+	line-height: 54px;
+	line-height: 102%;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.little-text__splash {
+	margin-top: 10px;
+}
+
+.little-text {
+	font-family: var(--regular-fonts);
+	font-size: 16px;
+	line-height: 19px;
+	line-height: 100%;
+	color: var(--secondary-color);
+	text-align: center;
+}
+.btn-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.btn__splash {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	background: var(--items-bg);
+	background-image: url(../public/icons/Vector.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 21px;
+	display:inline-block;
+	justify-content: center;
+}

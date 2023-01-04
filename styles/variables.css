@@ -1,0 +1,26 @@
+@font-face {
+	font-family: --medium-font;
+	src: url(../public/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: --regular-fonts;
+	src: url(../public/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: --semiBold-font;
+	src: url(../public/fonts/RobotoMono-SemiBold.ttf);
+}
+
+
+:root {
+	/* background */
+	--primary-bg: #000000;
+	--secondary-bg: #ABA6AE;
+	--button-bg: #646165;
+	--items-bg: #232222;
+	/* color */
+	--primary-color: #ffffff;
+	--secondary-color: #ABA6AE;
+}
