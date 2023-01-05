@@ -23,4 +23,10 @@
 	/* color */
 	--primary-color: #ffffff;
 	--secondary-color: #ABA6AE;
+	--third-color: #E9E5E5;
+	--fourth-color: #C3BAC8;
+	/* font-size */
+	--font-size-x: 32px;
+	--font-size-m: 24px;
+	--font-size-s: 9px;
 }

@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+}
+
+#container {
+	width: 375px;
+	height: 812px;
+	background: var(--primary-bg);
+}
+
+.header {}
+
+.title__head {
+	padding: 82px 0 0 24px;
+}
+
+.little__title {
+	font-family: var(--regular-fonts);
+	font-size: var(--font-size-m);
+	color: var(--secondary-color);
+}
+
+.big__title {
+	font-family: var(--medium-fonts);
+	font-size: var(--font-size-x);
+	color: var(--third-color);
+}
+
+.search-wrapper {
+	padding: 25px 0 0 24px;
+
+}
+
+.search__header {
+	width: 319px;
+	height: 45px;
+	background-color: var(--items-bg);
+	border: none;
+	outline: none;
+	font-family: var(--regular-fonts);
+	font-size: 20px;
+	color: var(--fourth-color);
+	padding-left: 17px;
+}
+
+.nav__header {}
+
+.nav-bar {
+	width: 319px;
+	display: flex;
+	justify-content: space-between;
+	margin: 23px 0 0 24px;
+}
+
+.item-bar {}
+
+.btn-nav {}
+
+.chicken {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background-color: var(--items-bg);
+	font-family: var(--regular-fonts);
+	font-size: var(--font-size-s);
+	color: var(--primary-color);
+	background-image: url(../public/icons/Poultry\ Leg.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 20%;
+	padding-top: 30px;
+}
+
+.beef {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background-color: var(--items-bg);
+	font-family: var(--regular-fonts);
+	font-size: var(--font-size-s);
+	color: var(--primary-color);
+	background-image: url(../public/icons/Beef.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 20%;
+	padding-top: 30px;
+}
+
+.vegetable {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background-color: var(--items-bg);
+	font-family: var(--regular-fonts);
+	font-size: var(--font-size-s);
+	color: var(--primary-color);
+	background-image: url(../public/icons/Cauliflower.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 20%;
+	padding-top: 30px;
+}
+
+.cheese {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background-color: var(--items-bg);
+	font-family: var(--regular-fonts);
+	font-size: var(--font-size-s);
+	color: var(--primary-color);
+	background-image: url(../public/icons/Cheese.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 20%;
+	padding-top: 30px;
+}
