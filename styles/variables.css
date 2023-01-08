@@ -12,6 +12,10 @@
 	font-family: --semiBold-font;
 	src: url(../public/fonts/RobotoMono-SemiBold.ttf);
 }
+@font-face {
+	font-family: --montserrat-font;
+	src: url(../public/fonts/Montserrat-Regular.ttf);
+}
 
 
 :root {
@@ -20,6 +24,8 @@
 	--secondary-bg: #ABA6AE;
 	--button-bg: #646165;
 	--items-bg: #232222;
+	--items-hover-bg:#4B494C;
+	--nav-home-bg: #1C1C1C;
 	/* color */
 	--primary-color: #ffffff;
 	--secondary-color: #ABA6AE;
