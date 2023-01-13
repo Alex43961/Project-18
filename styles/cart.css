@@ -122,3 +122,79 @@ li {
 .button-burger:hover {
 	background-color: var(--items-bg);
 }
+
+.title-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title__main {}
+
+.big-text-main {}
+
+.big-text {
+	font-family: var(--medium-font);
+	font-size: 28px;
+	font-weight: 500;
+	color: var(--primary-color);
+}
+
+.little-text-main {
+	margin-top: 6px;
+}
+
+.little-text {
+	font-family: var(--medium-font);
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--secondary-bg);
+}
+
+.price-wrapper {}
+
+.price-burgers {}
+
+.price {
+	font-family: var(--semiBold-font);
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--primary-color);
+}
+
+.quantity {
+	margin-top: 37px;
+}
+
+.quantity input {
+	font-family: var(--regular-fonts);
+	border: none;
+	text-align: center;
+	width: 9px;
+	font-size: 16px;
+	color: var(--primary-color);
+	background-color: var(--items-bg);
+
+}
+
+button[class*=btn] {
+	width: 28px;
+	height: 28px;
+	background-color: #D9D9D9;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.minus-btn img {
+	margin-bottom: 3px;
+}
+
+.plus-btn img {
+	margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+	outline: 0;
+}
