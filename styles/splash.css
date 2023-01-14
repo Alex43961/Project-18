@@ -31,7 +31,7 @@ li {
 }
 
 .little-buttons {
-	display: flex;	
+	display: flex;
 	justify-content: center;
 }
 
@@ -75,6 +75,7 @@ li {
 	color: var(--secondary-color);
 	text-align: center;
 }
+
 .btn-wrapper {
 	display: flex;
 	justify-content: center;
@@ -89,6 +90,7 @@ li {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-top: 21px;
-	display:inline-block;
+	display: inline-block;
 	justify-content: center;
+	cursor: pointer;
 }
